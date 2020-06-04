@@ -20,9 +20,9 @@ int main()
     ll int a,b,c;
     cin>>a>>b>>c;
     string ans="No";
-    for(int i=0;(a*i)<=c;i++)
+    for(int i=0;i<=c;i++)
     {
-    	for(int j=0;(j*b)<=c;j++)
+    	for(int j=0;j<=c;j++)
     	{
     		if(((a*i)+(b*j))==c)
     		{
