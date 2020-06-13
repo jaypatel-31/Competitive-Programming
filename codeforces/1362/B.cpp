@@ -32,9 +32,8 @@ int main()
 	  	cin>>a[i];
 	  }
 	  sort(a,a+n);
-	  int maxi=a[n-1];
 	  int ans=-1;
-	  for(int k=1;k<=(2*maxi);k++)
+	  for(int k=1;k<=1024;k++)
 	  {
 	  	  std::vector<int> v;
 	  	 for(int i=0;i<n;i++)
